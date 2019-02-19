@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Movie: Codable {
+/*struct Movie: Codable {
     
     let title: String
     let categories: String
@@ -17,11 +17,11 @@ struct Movie: Codable {
     let summary: String
     let image: String
     
-    /*
+    
      Em caso de mudar nome da váriavel no json
      enum CodingKeys: String, CodingKey{
          case title
     }
-    */
     
-}
+    
+}*/
