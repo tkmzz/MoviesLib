@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC0C62FE2227600D007A7311 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0C62FD2227600D007A7311 /* API.swift */; };
+		AC0C630022276CC2007A7311 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0C62FF22276CC2007A7311 /* MapViewController.swift */; };
 		AC17D9F42214C4C90062D6D8 /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = AC17D9F32214C4C90062D6D8 /* movies.json */; };
 		AC17D9F62214DB180062D6D8 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC17D9F52214DB180062D6D8 /* Movie.swift */; };
 		AC17D9F82214E8A60062D6D8 /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC17D9F72214E8A60062D6D8 /* MoviesTableViewController.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC0C62FD2227600D007A7311 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		AC0C62FF22276CC2007A7311 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		AC17D9F32214C4C90062D6D8 /* movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movies.json; sourceTree = "<group>"; };
 		AC17D9F52214DB180062D6D8 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		AC17D9F72214E8A60062D6D8 /* MoviesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
@@ -70,11 +74,13 @@
 			children = (
 				ACF2CA5422121FA900B8DA07 /* AppDelegate.swift */,
 				ACF2CA5622121FA900B8DA07 /* MovieViewController.swift */,
+				AC0C62FF22276CC2007A7311 /* MapViewController.swift */,
 				AC5E2D34221B8B6900A4DA1B /* UIViewController+CoreData.swift */,
 				AC17D9F72214E8A60062D6D8 /* MoviesTableViewController.swift */,
 				AC17D9F92214F65C0062D6D8 /* MovieTableViewCell.swift */,
 				AC17D9F52214DB180062D6D8 /* Movie.swift */,
 				ACF2CA5822121FA900B8DA07 /* Main.storyboard */,
+				AC0C62FD2227600D007A7311 /* API.swift */,
 				AC5E2D36221B8E9D00A4DA1B /* MovieRegisterViewController.swift */,
 				AC5E2D31221B84C200A4DA1B /* MoviesLib.xcdatamodeld */,
 				AC17D9F32214C4C90062D6D8 /* movies.json */,
@@ -160,10 +166,12 @@
 				AC5E2D37221B8E9D00A4DA1B /* MovieRegisterViewController.swift in Sources */,
 				AC17D9FA2214F65C0062D6D8 /* MovieTableViewCell.swift in Sources */,
 				AC17D9F82214E8A60062D6D8 /* MoviesTableViewController.swift in Sources */,
+				AC0C630022276CC2007A7311 /* MapViewController.swift in Sources */,
 				AC5E2D33221B84C200A4DA1B /* MoviesLib.xcdatamodeld in Sources */,
 				ACF2CA5722121FA900B8DA07 /* MovieViewController.swift in Sources */,
 				AC5E2D35221B8B6900A4DA1B /* UIViewController+CoreData.swift in Sources */,
 				ACF2CA5522121FA900B8DA07 /* AppDelegate.swift in Sources */,
+				AC0C62FE2227600D007A7311 /* API.swift in Sources */,
 				AC17D9F62214DB180062D6D8 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
